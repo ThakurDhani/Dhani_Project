@@ -1,0 +1,6 @@
+---
+- name: Apply System Manager Configuration
+  hosts: web
+  become: yes
+  roles:
+    - system_manager
